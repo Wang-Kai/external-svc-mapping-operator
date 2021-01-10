@@ -13,5 +13,12 @@ kubebuilder create api --group mapping --version v1 --kind ExternalSvc
 ## How to run it ?
 
 ```console
+# install CRD
+make install
+
+# run program
 make run ENABLE_WEBHOOKS=false
+
+# create ExternalSvc resource
+kubectl create -f config/samples/mapping_v1_externalsvc.yaml
 ```
