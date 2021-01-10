@@ -2,7 +2,7 @@
 
 ## How to use kubebuilder ?
 
-```
+```console
 # 初始化脚手架
 kubebuilder init  --domain sf.ucloud.cn
 
