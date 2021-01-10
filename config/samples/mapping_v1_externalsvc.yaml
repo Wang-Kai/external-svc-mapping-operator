@@ -1,0 +1,9 @@
+apiVersion: mapping.sf.ucloud.cn/v1
+kind: ExternalSvc
+metadata:
+  name: externalsvc-bar
+spec:
+  # Add fields here
+  external_svc_ip: 1.2.3.4
+  external_svc_port: 1234
+  internal_svc_port: 1234

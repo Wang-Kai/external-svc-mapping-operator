@@ -1,0 +1,7 @@
+domain: sf.ucloud.cn
+repo: github.com/Wang-Kai/external-svc-mapping-operator
+resources:
+- group: mapping
+  kind: ExternalSvc
+  version: v1
+version: "2"

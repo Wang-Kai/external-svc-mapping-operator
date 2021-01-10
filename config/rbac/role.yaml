@@ -1,0 +1,28 @@
+
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+- apiGroups:
+  - mapping.sf.ucloud.cn
+  resources:
+  - externalsvcs
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - mapping.sf.ucloud.cn
+  resources:
+  - externalsvcs/status
+  verbs:
+  - get
+  - patch
+  - update
